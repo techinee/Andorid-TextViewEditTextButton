@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="212dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:background="#825ACA"
+        android:drawableBottom="@android:drawable/btn_star_big_on"
+        android:gravity="center"
+        android:text="Click Me !"
+        android:textColor="#FBF5F5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addData"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@android:drawable/ic_input_add"
+        android:ems="10"
+        android:hint="Enter Data :"
+        android:inputType="textPersonName"
+        android:textColor="#857B7B" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableRight="@android:drawable/ic_menu_add"
+        android:text="Add Data"
+        android:textSize="18sp" />
+
+</LinearLayout>
